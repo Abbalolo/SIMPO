@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>ATAP</title>
+</head>
+<body>
+    
+    <div class="form-container">
+        <h1>you are welcome</h1>
+        <div class="login">
+            <li><a class="active" href="index.html">create account</a></li>
+            <li><a href="log.html">log in</a></li>
+        </div>
+        <form id="form" method="Get">
+            <div class="form-control">
+                <label for="username">username</label>
+                <input type="text" name="username" id="user" >
+                <small class="error">error message</small>
+            </div>
+            <div class="form-control">
+                <label for="firstname">firstname</label>
+                <input type="text" name="firstname" id="first">
+                <small class="error">error message</small>
+            </div>
+            <div class="form-control">
+                <label for="middlenmae">middlename</label>
+                <input type="text" name="middlename" id="middle">
+                <small class="error">error message</small>
+            </div>
+            <div class="form-control">
+                <label for="lastnmae">lastname</label>
+                <input type="text" name="lastname" id="last">
+                <small class="error">error message</small>
+            </div>
+            <div class="form-control">
+                <label for="email">email address</label>
+                <input type="email" name="email" id="email">
+                <small class="error">error message</small>
+            </div>
+            <div class="form-control">
+                <label for="phone">phone number</label>
+                <input type="text" name="phone" id="phone">
+                <small class="error">error message</small>
+            </div>
+           <div class="GENDER">
+            <label>Gender</label>
+            <input type="radio" name="Gender" id="male"  required> MALE  
+            <input type="radio" name="Gender" id="female" >FEMALE
+           </div>
+            <div class="form-control">
+                <label for="picture">profile picture</label>
+                <input type="file"  accept="image/" name="picture" id="picture" >
+                <small class="error">error message</small>
+            </div>
+            <div class="form-control">
+                <label for="password">password</label>
+                <input type="password" name="password" id="password">
+                <small class="error">error message</small>
+            </div>
+            <div class="form-control">
+                <label for="password">confirm password</label>
+                <input type="password" name="password" id="secondpass">
+                <small class="error">error message</small>
+            </div>
+            
+            <div class="form-control">
+               <button type="submit">Confirm</button>
+            </div>
+            <h4>login if you already have an account with us</h4>
+        </form>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
