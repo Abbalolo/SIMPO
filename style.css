@@ -218,10 +218,9 @@ border: 2px solid  rgb(13, 227, 13);
     }
 
     .hero{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+       display: grid;
+       grid-template-columns: repeat(2,auto);
+       place-content: center;
        gap: 1em;
        height: 90vh;
        
@@ -233,7 +232,7 @@ border: 2px solid  rgb(13, 227, 13);
         background-color: brown;
         border-radius: 10px;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: center;
         align-items: center;
         color: aliceblue;
