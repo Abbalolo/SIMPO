@@ -122,12 +122,12 @@ let formData = {
     password: password.value,
 }
 
-window.location.href = 'complete.html';
+
 
 
 localStorage.setItem("formData", JSON.stringify(formData))
 displayData()
-
+window.location.href = 'complete.html';
 
 
 })
